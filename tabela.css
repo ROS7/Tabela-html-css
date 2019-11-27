@@ -1,0 +1,28 @@
+table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+table tr{
+	background-color: #fcfafa;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+table tr th{
+	background-color: #5996ff;
+	color: white;
+}
+#mes{
+	background-color: blue;
+}
+
+table tr td{
+	border-top: solid 1px lightgray;
+	width: 20px;
+	height: 20px;
+	padding: 15px;
+}
